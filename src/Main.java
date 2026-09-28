@@ -12,5 +12,12 @@ public class Main{
 
         Maths m1=(num) -> num*num;
         System.out.println(m1.cal(20));
+
+        Addition a1=(a,b) -> {
+            int result=a+b;
+            System.out.println("Result:" + result);
+            return result;
+        };
+        a1.sum(25,35);
     }
 }
